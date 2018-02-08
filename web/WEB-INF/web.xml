@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>seccionPremios</servlet-name>
+        <servlet-class>servlets.seccionPremios</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>solicitudPremios</servlet-name>
+        <servlet-class>servlets.solicitudPremios</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>seccionEncuesta</servlet-name>
+        <servlet-class>servlets.seccionEncuesta</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>seccionReporte</servlet-name>
+        <servlet-class>servlets.seccionReporte</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>seccionPremios</servlet-name>
+        <url-pattern>/seccionPremios</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>loginA</servlet-name>
+        <servlet-class>servlets.loginA</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginA</servlet-name>
+        <url-pattern>/loginA</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>solicitudPremios</servlet-name>
+        <url-pattern>/solicitudPremios</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>seccionReporte</servlet-name>
+        <url-pattern>/seccionReporte</url-pattern>
+    </servlet-mapping>
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

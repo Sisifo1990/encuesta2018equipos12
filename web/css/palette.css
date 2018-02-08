@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/11/2017, 11:53:14 PM
+    Author     : Usuario
+*/
+
+#index{
+    background-color: #cc5200;
+
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  border-width: 3px;
+  border-style: double;
+  border-radius: 5px;  
+  border-color: gray;
+  background-color: rgb(92, 92, 61);
+  
+}
+.form-signin > h2{
+    color: white;
+    font-size: 20px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/*#ms-selectEncuesta{
+    box-sizing:content-box;
+}
+ul.ms-list{
+    width: 500px;
+    box-sizing:content-box;
+}
+#btn-CreatePrize{
+    
+}*/
+td.details-control {
+    background: url('../img/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../img/details_close.png') no-repeat center center;
+}
+
+.paginate_button:hover{
+    background-color: transparent;
+} 
